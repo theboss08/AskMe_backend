@@ -1,0 +1,33 @@
+Home page
+1. Search Bar for searching questions
+2. Login and register if logged in go to profile
+3. Ask question
+4. List of questions (max 10) in order of number of views
+
+User Dashboard (viewed only by the user)
+1. Details of the user
+2. Authentication management like changing passwords, account deletion, updation etc.
+3. Questions asked by the user
+4. Questions answered by the user
+5. Number of followers
+
+Profile Page (Public)
+1. Details of the user
+2. Questions asked and answered
+3. Number of followers
+
+Question Page
+1. Question asked (quite obvious)
+2. Comment on the question itself
+3. All the answer listed in order of votes received
+4. Each answer has a seperate comment section
+
+Ask question page
+1. Post questions (obvious)
+
+Database (mongodb) Schema
+users -> id, name, email, password, short about, qualification, followers, created_at
+questions -> id, body, user_id, views, created_at
+answers -> id, body, question_id, user_id, votes, created_at
+question_comments -> id, body, question_id, user_id, created_at
+answer_comments -> id, body, answer_id, user_id, created_at
