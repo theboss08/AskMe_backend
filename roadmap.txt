@@ -6,7 +6,7 @@ Home page
 
 User Dashboard (viewed only by the user)
 1. Details of the user
-2. Authentication management like changing passwords, account deletion, updation etc.
+2. Profile management like changing passwords, account deletion, updation etc.
 3. Questions asked by the user
 4. Questions answered by the user
 5. Number of followers
@@ -21,6 +21,7 @@ Question Page
 2. Comment on the question itself
 3. All the answer listed in order of votes received
 4. Each answer has a seperate comment section
+5. Posting your own answer
 
 Ask question page
 1. Post questions (obvious)

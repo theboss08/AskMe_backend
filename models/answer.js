@@ -16,6 +16,10 @@ const schema = new mongoose.Schema({
 	votes : {
 		type : Number,
 		default : 0,
+	},
+	voted_by : {
+		type : Array,
+		default : [],
 	}
 }, {
 	timestamps : true,
